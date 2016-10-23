@@ -1,4 +1,4 @@
-FROM troyfontaine/armhf-alpinelinux:3.4
+FROM troyfontaine/armhf-alpinelinux
 
 RUN apk --no-cache add perl
 
