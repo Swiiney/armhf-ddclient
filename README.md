@@ -9,5 +9,5 @@ To start :
 docker run -d -v ~/etc/ddclient:/etc/ddclient -v ~/var/ddclient:/var/cache/ddclient --name ddclient --restart=always sbonnell/armhf-ddclient
 
 To Build :
-docker buile -t armhf-ddclient .
+docker build -t armhf-ddclient .
 
